@@ -17,29 +17,40 @@
         <script defer src="script.js"></script>
         <style>
             body {
-                padding: 0;
-                margin: 0;
+                padding: 10;
+                margin: 10;
                 display: flex;
                 justify-content: center;
             }
 
             #message-container {
-                width: 50%;
+                width: 30%;
                 max-width: 1200px;
+                margin-right: 250px;
+            }
+
+            #send-container {
+                margin-top: 230px;
             }
 
             #message-container div {
                 background-color: #ccc;
                 padding: 5px;
+                margin-top: 230px;
             }
 
             #message-container div:nth-child(2n) {
                 background-color: #fff;
             }
+
+            h2 {
+                text-align: center;
+            }
         </style>
     </head>
     <body>
-    <h2>Basic Chat App</h2>
+    <h2>Basic Chat App</h2><br />
+    <hr />
     <div id="message-container">
     </div>
         <form id="send-container">
